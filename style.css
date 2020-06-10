@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+/*------header------*/
+
+.header {
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+}
+
+.header-logo img {
+    height: 60px;
+    width: 150px;
+}
+
+.header-burger {
+
+}
+
+/*------intro------*/
+
+.intro {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 350px;
+}
+
+.intro-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin: 20px;
+}
+
+.intro-text {
+    display: flex;
+    color: cadetblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+}
+
+.intro-btn {
+    display: inline-block;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.intro-btn button {
+    font-size: 1.4em;
+    height: 60px;
+    width: 700px;
+    margin: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 6px;
+    color: cornflowerblue;
+    box-shadow: 0px 0px 2px 1px;
+}
+
+.intro-btn button.email {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    background-color: white;
+}
+
+.intro-btn button.get {
+    background-color: blue;
+    color: white;
+}
+
+.intro-info {
+    font-size: 1.5em;
+    color: cadetblue;
+
+}
+
+
+/*------reviews-------*/
+
+.reviews {
+
+}
+
+.reviews-photo {
+    margin-top: 40px;
+}
+
+.reviews-text {
+    display: flex;
+    color: black;
+    font-size: 2em;
+}
+

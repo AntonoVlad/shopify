@@ -26,10 +26,9 @@ body {
     text-align: center;
     flex-direction: column;
     padding: 30px;
-    height: 350px;
 }
 
-.intro-title {
+.intro-title  {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     margin: 20px;
@@ -73,7 +72,7 @@ body {
 }
 
 .intro-info {
-    font-size: 1.5em;
+    font-size: 1em;
     color: cadetblue;
 
 }
@@ -85,13 +84,74 @@ body {
 
 }
 
-.reviews-photo {
+.reviews-img-wrapper img {
+    width: 100%;
     margin-top: 40px;
+
 }
+
+.reviews-img-wrapper {
+
+
+}
+
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
 
 .reviews-text {
-    display: flex;
+    font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 2em;
+    font-size: 1.6em;
+
 }
 
+.reviews-slider {
+
+}
+
+/*------work------*/
+
+.work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+
+.work-title {
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.work-title-wrapper {
+    font-size: 0.9em;
+    color: cadetblue;
+}
+
+.work-text {
+    font-size: 0.8em;
+    color: cadetblue;
+    padding: 30px;
+}
+
+.work-btn {
+
+}
+
+.work-btn button {
+    width: 50%;
+    height: 60px;
+    font-size: 1.4em;
+    background-color: white;
+    color: cadetblue;
+    border-radius: 6px;
+    border: 2px solid cadetblue;
+    box-shadow: 0px 0px 0px 3px;
+}

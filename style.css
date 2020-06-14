@@ -120,13 +120,17 @@ body {
 
 .work {
     display: flex;
-    flex-direction: column;
-    text-align: center;
     padding: 40px;
 }
 
+.work-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .work-title {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -142,7 +146,9 @@ body {
 }
 
 .work-btn {
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .work-btn button {

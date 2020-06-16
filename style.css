@@ -162,3 +162,105 @@ body {
     border: 2px solid cadetblue;
     box-shadow: 0px 0px 0px 3px;
 }
+
+.work-img {
+    display: none;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+
+    /*------intro------*/
+
+    .intro {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .intro-title {
+        font-size: 1.7em;
+    }
+
+    .intro-text {
+        justify-content: center;
+        width: 60%;
+        font-size: 1.5em;
+    }
+
+    .intro-btn {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .intro-btn button {
+
+    }
+
+    .intro-btn button.email {
+        width: 40%;
+    }
+
+    .intro-btn button.get {
+
+    }
+
+    .intro-info {
+        justify-content: center;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+
+    /*------reviews-------*/
+
+
+    /*------work------*/
+
+    .work {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .work-wrapper {
+        align-content: space-around;
+        padding: 15px;
+        width: 50%;
+    }
+
+    .work-title {
+        font-size: 1.6em;
+    }
+
+    .work-title-wrapper {
+        font-size: 1.4em;
+    }
+
+    .work-text {
+        padding: 15px 0px;
+        font-size: 1.3em;
+    }
+
+    .work-btn {
+
+    }
+
+    .work-img {
+        display: flex;
+
+        justify-items: center;
+
+    }
+
+    .work-img img {
+        height: 350px;
+        width: 450px;
+    }
+
+
+}

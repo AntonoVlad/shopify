@@ -24,5 +24,5 @@ function toggleImages() {
 let burger = document.querySelector(".header-burger-btn")
 burger.onclick = function () {
 let burgerMenu = document.querySelector(".burger-menu")
-    burgerMenu.classList.toggle("hidden")
+    burgerMenu.classList.toggle("burger-menu-hidden")
 }

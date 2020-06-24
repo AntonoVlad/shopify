@@ -2,9 +2,26 @@ body {
     margin: 0;
 }
 
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+
+    z-index: 1;
+}
+
+.burger-menu button {
+
+}
+
 /*------header------*/
 
 .header {
+    display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid black;
     padding: 10px 10px;
 }
@@ -22,6 +39,11 @@ body {
 
 .header-burger {
 
+}
+
+.header-burger-btn {
+    position: relative;
+    z-index: 2;
 }
 
 /*------intro------*/
@@ -309,6 +331,14 @@ body {
     button.header-get {
         background-color: #5F60C0;
         color: white;
+    }
+
+    .header-burger {
+        display: none;
+    }
+
+    .header-burger-btn {
+
     }
 
     /*------intro------*/
